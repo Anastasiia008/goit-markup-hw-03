@@ -1,0 +1,185 @@
+:root {
+    --text: #434455;
+    --white: #ffffff;
+    --interactive-elements: #4d5ae5;
+    --dark-color: #2e2f42;
+    --portfolio-btn: #404BBF;
+    --secondary-background-color: #f4f4fd;
+    --subtle-background: #e7e9fc;
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+}
+
+body {
+        color: var(--text);
+        background-color: var(--white);
+        font-family: var(--primary-font);
+    }
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--interactive-elements);
+}
+
+.logo {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.03em;
+    color: var(--dark-color);
+}
+
+.logo-color {
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--interactive-elements);
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--dark-color);
+    letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--interactive-elements);
+}
+
+.contact {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--interactive-elements);
+}
+
+.contact-link {
+    color: var(--text);
+    
+}
+
+
+.hero {
+background-color: var(--dark-color);
+letter-spacing: 0.02em;
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    color: var(--white);
+    letter-spacing: 0.02em;
+}
+
+.hero-btn {
+font-weight: 500;
+font-size: 16px;
+cursor: pointer;
+color: var(--white);
+background: var(--interactive-elements) ;
+font: var(--primary-font);
+letter-spacing: 0.04em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--portfolio-btn);
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.subtitle {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--dark-color);
+letter-spacing: 0.02em;
+}
+
+.second-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: var(--dark-color);
+    letter-spacing: 0.02em;
+}
+
+.team {
+    background-color: var(--secondary-background-color);
+    letter-spacing: 0.02em;
+}
+
+.team-item {
+    background-color: var(--white);
+    letter-spacing: 0.02em;
+}
+
+.footer {
+    background-color: var(--dark-color);
+    letter-spacing: 0.02em;
+}
+
+.footer-color {
+    color: var(--subtle-background);
+    letter-spacing: 0.02em;
+}
+
+.dark-theme {
+    color: var(--secondary-background-color);
+    letter-spacing: 0.03em;
+}
+
+.portfolio-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    color: var(--interactive-elements);
+    background: var(--secondary-background-color);
+    font: var(--primary-font);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    color: var(--white);
+    background: var(--portfolio-btn);
+}
